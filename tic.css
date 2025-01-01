@@ -1,0 +1,17 @@
+.cell{
+    width:75px;
+    height:75px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 150%;
+    font-size: 50px;
+}
+#restart{
+    margin-left: 48%;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:225px;
+    margin:auto;
+}
